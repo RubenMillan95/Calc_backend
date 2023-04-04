@@ -64,8 +64,8 @@ app.use(express.json());
 //3. Crear un servicio para escuchar peticiones
 
 app.listen(
-     3000,
+     3001,
      ()=>{
-        console.log("Servidor ejecutandose en el puerto 3000");
+        console.log("Servidor ejecutandose en el puerto 3001");
      } 
 ); 
