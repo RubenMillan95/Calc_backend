@@ -11,7 +11,7 @@ app.use(express.json());
 //Definir la ruta (la url) en donde va a responder nuestra API
 //http://localhost:3000/ruta
 
- app.get(
+ app.post(
    '/api/sumar',
    //Se requiere dos objetos que representan la petición
    //y la respuesta
@@ -64,11 +64,8 @@ app.use(express.json());
 //3. Crear un servicio para escuchar peticiones
 
 app.listen(
-     3001,
+     3000,
      ()=>{
-        console.log("Servidor ejecutandose en el puerto 3001");
+        console.log("Servidor ejecutandose en el puerto 3000");
      } 
 ); 
-
-
-
